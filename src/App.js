@@ -26,6 +26,8 @@ function App() {
       <Cover/>
       <About/>
       <Slider/>
+      <Info/>
+      <Footer/>
       
     
     </div>

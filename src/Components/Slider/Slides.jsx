@@ -24,6 +24,7 @@ const slidesInfo = [
 
 
 const slides = slidesInfo.map(slide =>{
+  return(
     <div className="slide-container">
         <img src={slide.src} alt={slide.alt} />
         <div className="slide-desc">
@@ -33,6 +34,9 @@ const slides = slidesInfo.map(slide =>{
 
         </div>
     </div>
+
+  )
+    
 })
 
 export default slides
