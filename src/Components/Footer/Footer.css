@@ -7,7 +7,7 @@
     position: fixed;
     z-index: -2;
     bottom: 0;
-    left: 0;
+    left: 0; 
 }
 
 .footer-info{
@@ -46,7 +46,7 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 .linkedin{
-    color: white;
+    color: rgb(8, 11, 235);
     font-size: 35px;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -54,7 +54,20 @@
 }
 
 .linkedin:hover{
-    border-color: white;
+    border-color: rgb(8, 11, 235);
+    transition: all 0.3s ease-out;
+}
+
+.github{
+    color: rgb(25, 2, 54);
+    font-size: 35px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 4px solid transparent;
+}
+
+.github:hover{
+    border-color: rgb(25, 2, 54);
     transition: all 0.3s ease-out;
 }
 
