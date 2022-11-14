@@ -2,6 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
+  "homepgae" :"http://Botsi.github.io/Portafolio",
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.26",
     "@testing-library/jest-dom": "^5.11.6",
