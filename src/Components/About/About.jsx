@@ -5,6 +5,7 @@ import node from "../../Media/Node.png"
 import react from "../../Media/React.png"
 import css from  "../../Media/css.png"
 import html from  "../../Media/html.png"
+import Foto from "../../Media/Foto2.png"
 
 const About = () => {
 
@@ -36,10 +37,11 @@ const About = () => {
 
             </div>
             <div className='about-img'>
-                <img
-                    src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg"
+                <a a href="https://github.com/Botsi1" target="_blank" rel="noreferrer"> <img
+                    src={Foto}
                     alt="about"
-                />
+                /></a>
+               
 
             </div>
 

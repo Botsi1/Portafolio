@@ -2,16 +2,19 @@
   display: flex;
   background-color: white;
   color: black;
-  height: 70vh;
+  height: 12cm;
   padding: 100px 0 100px 0;
   align-items: center;
+  /* position: relative; */
 }
 
 .about-desc {
+  position: relative;
+  /* background-color: blueviolet; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 55%;
+  width: 20cm;
   padding: 0 100px 0 100px;
 }
 
@@ -25,17 +28,35 @@
 }
 
 .about-img {
+  /* background-color: pink; */
+  /* border-radius: 60%; */
   width: 15cm;
-  height: 10cm;
+  height:10cm;
   display: flex;
+  justify-content: center;
   align-self: center;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+.about-img img{
+  /* height: 12cm; */
+  width: 6cm;
+  justify-content: center;
+  align-self: center;
+  border-radius: 30%;
+}
+
+.about-img img:hover{
+  width: 7cm;
+  transition: all 0.3s ease-out;
+  /* background-color: red; */
 }
 
 .container-picture{
-  height: 12vh;
+  /* background-color: darkgreen; */
+  height: 3cm;
   /* width: 16vh; */
-  /* background-color: red; */
+ 
   display: flex;
   overflow: hidden;
   margin-top: 12px;
@@ -47,9 +68,10 @@
 }
 
 .container-picture2{
-  height: 12vh;
-  /* width: 16vh; */
-  /* background-color: red; */
+  /* background-color: orange; */
+  height: 3cm;
+
+ 
   display: flex;
   overflow: hidden;
   /* margin-top: 12px; */
@@ -60,19 +82,28 @@
 }
 
 .picture{
-  height: 12vh;
+  /* background-color: yellow; */
+  height: 87px;
+  padding: 10px;
   /* width: 16vh; */
-  /* background-color: red; */
+ 
   display: flex;
   overflow: hidden;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 
 
 .picture:hover{
-  height:15vh ;
+  /* background-color: red; */
+  height:100px;
+  width: 90px;
+  
   transition: all 0.3s ease-out;
+}
+
+.about-img a{
+  margin-top: 40px;
 }
 
 
