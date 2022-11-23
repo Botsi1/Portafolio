@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import git from "../../Media/Git.png"
+
 
 const Footer = () => {
     return (

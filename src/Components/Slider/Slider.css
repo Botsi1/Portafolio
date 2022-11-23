@@ -23,10 +23,14 @@
     width: 11cm;
     display: flex;
     /* width: auto; */
-    /* overflow:scroll; */
-    object-fit: contain;
+    /* overflow:hidden; */
+    /* object-fit:contain; */
     transition: all 0.2s ease-in-out;
 }
+
+
+
+
 
 .img{
     /* background-color: black; */
@@ -68,6 +72,8 @@ img:hover{
     padding-left: 30px;
     border-top-left-radius: 20px ;
     opacity: 0.8;
+    margin-right: 67px;
+    border-radius: 20px;
 }
 
 .slide-desc >span{
