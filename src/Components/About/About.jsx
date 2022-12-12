@@ -12,7 +12,7 @@ const About = () => {
     return (
         <div className='about-container'>
             <div className='about-desc'>
-                <h3>Let me tell you something about ame</h3>
+                <h3>Let me tell you something about me</h3>
                 <p> I am a full stack developer, since I was a child I like everything that has to do with science and technology, I am a student of electronic engineering, I am currently in my third year.
                     I am from Argentina and with respect to programming I have knowledge in different technologies:</p>
                 <picture className='container-picture'>
